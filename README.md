@@ -9,6 +9,8 @@ supporting him. More info:
 2. <https://github.com/airwindows/airwindows>
 3. <http://airwindows.com>
 
+[[Download build](https://github.com/ech2/airwindows-ports/releases)]
+
 ## Building
 
 Install CMake from your package manager:
