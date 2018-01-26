@@ -53,3 +53,9 @@ Copy the `.so` files wherever you would like.
    well as include VST-related files.
 4. Build the project.
 
+## What’s needed
+
+- [ ] Check the VS / Xcode projects for some extra compilation flags and add it
+    to this project.
+- [ ] Try to make this build cross-platform and generate Xcode and VS projects.
+- [ ] Automatic builds for different platforms.
