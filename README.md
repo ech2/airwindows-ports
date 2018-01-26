@@ -44,3 +44,12 @@ Then, navigate to the `build` directory and run `cmake .. && make`.
 
 Copy the `.so` files wherever you would like.
 
+## Adding new plugins
+
+1. Create a new directory `PluginName` in the `src` dir.
+2. Copy the plugin’s `.cpp` and `.h` files to it.
+3. Add line `add_airwindows_plugin(PluginName)` to the root `CMakeLists.txt`.
+   This will create a new target `PluginName` with all the sources copied, as
+   well as include VST-related files.
+4. Build the project.
+
