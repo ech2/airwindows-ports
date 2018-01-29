@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.9)
 project(airwindows_ports)
 
 set(CMAKE_CXX_STANDARD 14)
-add_definitions(-D__cdecl=)
+add_compile_options(-O2 -D__cdecl=)
 
 include(Helpers.cmake)
 
