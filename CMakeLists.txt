@@ -8,6 +8,7 @@ include(Helpers.cmake)
 
 add_subdirectory(include/vstsdk)
 add_airwindows_plugin(BitShiftGain)
+add_airwindows_plugin(GrooveWear)
 add_airwindows_plugin(PurestConsoleBuss)
 add_airwindows_plugin(PurestConsoleChannel)
 add_airwindows_plugin(PurestGain)
