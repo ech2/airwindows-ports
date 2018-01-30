@@ -42,9 +42,9 @@ include/vstsdk/
 └── vstplugmain.cpp
 ```
 
-Then, navigate to the `build` directory and run `cmake .. && make`.
-
-Copy the `.so` files wherever you would like.
+Then, navigate to the `build` directory and run `cmake .. && make`. A number of
+`.so` files should appear — these are your plugins. Copy theme wherever you
+would like or wherever your DAW can find them.
 
 ## Adding new plugins
 
@@ -57,7 +57,7 @@ Copy the `.so` files wherever you would like.
 
 ## What’s needed
 
-- [ ] Check the VS / Xcode projects for some extra compilation flags and add it
+- [X] Check the VS / Xcode projects for some extra compilation flags and add it
     to this project.
 - [ ] Try to make this build cross-platform and generate Xcode and VS projects.
 - [ ] Automatic builds for different platforms.
