@@ -43,7 +43,7 @@ include/vstsdk/
 ```
 
 Then, navigate to the `build` directory and run `cmake .. && make`. A number of
-`.so` files should appear — these are your plugins. Copy theme wherever you
+`.so` files should appear — these are your plugins. Copy them wherever you
 would like or wherever your DAW can find them.
 
 ## Adding new plugins
