@@ -7,6 +7,7 @@ add_compile_options(-O2 -D__cdecl=)
 include(Helpers.cmake)
 
 add_subdirectory(include/vstsdk)
+add_airwindows_plugin(Acceleration)
 add_airwindows_plugin(BitShiftGain)
 add_airwindows_plugin(GrooveWear)
 add_airwindows_plugin(PurestConsoleBuss)
